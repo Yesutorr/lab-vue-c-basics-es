@@ -1,10 +1,10 @@
 <script setup>
 import { ref } from 'vue'
 
-// Variable reactiva que controla el color
+
 const esRojo = ref(true)
 
-// Método para cambiar el valor
+
 function cambiarColor() {
   esRojo.value = !esRojo.value
 }
